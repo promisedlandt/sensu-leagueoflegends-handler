@@ -1,0 +1,12 @@
+{
+	"handlers": {
+    "leagueoflegends": {
+      "type": "pipe",
+      "command": "/etc/sensu/handlers/leagueoflegends.rb",
+      "sender_name": "summoner name of your messaging account",
+      "sender_password": "password for your messaging account",
+      "server": "euw, na, eune",
+      "target_summoner_name": "summoner name of the account you want to send the message to"
+    }
+  }
+}
